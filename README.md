@@ -27,10 +27,6 @@ The first game I am making for it is **Maze Finger**, a fast-paced maze game whe
 
 **Repository coming soon.**
 
-### Video
-
-https://github.com/user-attachments/assets/1060cd7c-0b47-4cf6-a6aa-d37f54b61eeb
-
 ### Screenshots
 
 <p float="left">
@@ -39,6 +35,10 @@ https://github.com/user-attachments/assets/1060cd7c-0b47-4cf6-a6aa-d37f54b61eeb
   <img src="https://github.com/Ben-Does-Arcade/Ben-Does-Arcade/blob/main/Maze%20Finger%20Screenshot%203.png?raw=true" width="300">
   <img src="https://github.com/Ben-Does-Arcade/Ben-Does-Arcade/blob/main/Maze%20Finger%20Screenshot%204.png?raw=true" width="300">
 </p>
+
+### Video
+
+https://github.com/user-attachments/assets/1060cd7c-0b47-4cf6-a6aa-d37f54b61eeb
 
 ### Other Game Ideas
 
