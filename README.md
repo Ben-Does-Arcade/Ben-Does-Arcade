@@ -15,8 +15,11 @@ The cabinet incorporates:
 - **_TW-389 coin mechanism_**, processes .984" arcade tokens and filters out other invalid coins
 - **_DL-1275 Arcade ticket dispenser_**, capable of holding up to 4000 real arcade tickets
 - **_19" point-of-sale capacitive touch screen monitor_**, supports just about any game imaginable
+- **_Full quality stereo sound speakers_** provide unbeatable arcade game sound quality
 - **_Dell Optiplex 7040 Micro PC running Ubuntu Desktop_**, configured to automatically turn on and launch the desired game on power up
 - **_Custom DAQ module_**, communicates over the serial interface to the PC and handles all hardware inputs and outputs
+- **_Industrial revolving beacon light_** to celebrate a player's jackpot win
+- **_Mechanical bell module_** mounted inside cabinet to draw attention to the machine in ways speakers can't
 - **_PC tray with mounted USB 3.0 port for flash drives_**, provides easy access to servicing hardware, USB port allows for loading new games and holds configuration data
 
 ### Maze Finger
