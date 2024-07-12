@@ -10,6 +10,17 @@ I have been working on a video ticket redemption arcade game, which is a physica
 
 The first game I am making for it is Maze Finger, a fast-paced maze game where the goal is to find the hidden exit as fast as possible. But be quick, the timer gets faster as you complete each level!
 
+**Repository coming soon.**
+
+### Screenshots
+
+<p float="left">
+  <img src="https://github.com/Ben-Does-Arcade/Ben-Does-Arcade/blob/main/Maze%20Finger%20Screenshot%201.png?raw=true" width="300">
+  <img src="https://github.com/Ben-Does-Arcade/Ben-Does-Arcade/blob/main/Maze%20Finger%20Screenshot%202.png?raw=true" width="300">
+  <img src="https://github.com/Ben-Does-Arcade/Ben-Does-Arcade/blob/main/Maze%20Finger%20Screenshot%203.png?raw=true" width="300">
+  <img src="https://github.com/Ben-Does-Arcade/Ben-Does-Arcade/blob/main/Maze%20Finger%20Screenshot%204.png?raw=true" width="300">
+</p>
+
 <!---
 Ben-Does-Arcade/Ben-Does-Arcade is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
