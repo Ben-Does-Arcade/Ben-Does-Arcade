@@ -4,6 +4,10 @@ I'm a second-year Rochester Institute of Technology student who is interested in
 
 You'll find many of my personal projects hosted here. Feel free to check them out. I am fairly active on GitHub, so check back again soon for any future project updates.
 
+> [!IMPORTANT]
+> **_I am in the process of migrating older projects to GitHub_** so that all my work can be viewed on the same platform.
+> Many of my projects are private for the time being, while they are being finished. This includes **Maze Finger**.
+
 ## My Latest Project
 
 ### Video Ticket Redemption Arcade
