@@ -26,7 +26,8 @@ The cabinet incorporates:
 
 The first game I am making for it is **Maze Finger**, a fast-paced maze game where the goal is to find the hidden exit as fast as possible. But be quick, the timer gets faster as you complete each level!
 
-**Repository coming soon.**
+> [!NOTE]
+> Repository for Maze Finger is coming soon.
 
 ### Screenshots
 
