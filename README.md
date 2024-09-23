@@ -1,3 +1,5 @@
+(Updated 9/23/2024)
+
 **Hi, I'm Ben.**
 
 I'm a second-year Rochester Institute of Technology student who is interested in all things technology, particularly with writing code and creating projects.
@@ -9,8 +11,6 @@ You'll find many of my personal projects hosted here. Feel free to check them ou
 > Many of my projects are private for the time being, while they are being finished. This includes **Maze Finger**.
 
 # My Latest Projects
-
-Updated 9/23/2024.
 
 ## quickz
 
