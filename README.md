@@ -40,6 +40,14 @@ The brains behind `autorit` involve `selenium`, a popular Python package for aut
 lots of overhead, and even removes the need to have a desktop environment. This means that `autorit` is incredibly efficient when it comes to the speed of accessing and performing actions on RIT Online Services as the
 only wait times are for user program `sleep()` delays, and actual RIT Online Service backend loading times.
 
+### Automatic RIT authentication
+
+For all services, `autorit` handles authentication for you. All RIT Online Service classes implement the `_Auth` class, meaning you do not have to specifically invoke or handle authentication manually.
+Just approve the Duo Push or enter your text passcode that is sent to your mobile device.
+
+Some classes support `retain_cookie`, where it is possible to automatically sign in without the need to do anything else. This is commonly used with `OnDemand` to immediately
+invoke an online order without having to worry about RIT's SSO systen. Most services do *not* support this natively for security reasons.
+
 ### Connecting RIT Online Services together through automation
 
 This package also empowers the incorporation of automation across multiple different RIT Online Services and your own third-party services, like personal calendars and to-do lists.
