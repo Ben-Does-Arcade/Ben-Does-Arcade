@@ -1,4 +1,4 @@
-(Updated 9/23/2024)
+(Updated 10/3/2024)
 
 **Hi, I'm Ben.**
 
@@ -10,7 +10,113 @@ You'll find many of my personal projects hosted here. Feel free to check them ou
 > **_I am in the process of migrating older projects to GitHub_** so that all my work can be viewed on the same platform.
 > Many of my projects are private for the time being, while they are being finished. This includes **Maze Finger**.
 
+## My Thought Process
+
+* Treated as if they were in production or an enterprise environment
+* Documented extensively
+
 # My Latest Projects
+
+## autorit
+
+[GitHub Repository](https://github.com/Ben-Does-Arcade/autorit) (coming soon)
+
+Tired of navigating those notoriously awful frontends from RIT's many different online services? It is a known issue that it is difficult to use many of the online services that RIT has for different purposes.
+For example, `ondemand.rit.edu` for online ordering, `reserve.rit.edu` for reserving rooms, `mycourses.rit.edu` for course materials, and a lot more.
+
+Every service is essentially a different third-party contractor and there is no consistency across any services.
+These services are also quite slow and often take forever to execute any basic commands due to how slow the UI loads.
+
+Are you trying to check your Statistics grades in myCourses? It's gonna take over 2 minutes just to navigate the UI only to view a single number.
+This also involves manually enter your credentials for RIT's SSO authentication every single time. This process gets annoying.
+
+`autorit` aims to solve this by providing a consistent SDK for programmatically performing actions quickly, efficiently, and autonomously, across **almost all RIT Online Services.**
+
+### What is `autorit`? How does it work?
+
+`autorit` is a Python package that automatically handles the overhead of all RIT Online Services, letting you focus on what matters most - getting what you want, when you want, in the most efficient way possible.
+
+The brains behind `autorit` involve `selenium`, a popular Python package for automating web browsers, like Chrome, Firefox, and Edge. The headless option was used for this package, eliminating the UI processing times,
+lots of overhead, and even removes the need to have a desktop environment. This means that `autorit` is incredibly efficient when it comes to the speed of accessing and performing actions on RIT Online Services as the
+only wait times are for user program `sleep()` delays, and actual RIT Online Service backend loading times.
+
+### Connecting RIT Online Services together through automation
+
+This package also empowers the incorporation of automation across multiple different RIT Online Services and your own third-party services, like personal calendars and to-do lists.
+
+* When a quiz on myCourses is due tonight, schedule a room in Wallace Library from 3-4pm
+* At 6pm on weekdays, place an online order at Global Village Fresh Cantina & Grill
+* When an assignment is uploaded to a personal cloud drive service, upload the file to the associated myCourses dropbox
+
+### Code example
+
+```python
+from autorit import Config, AuthMethods
+from autorit.services.ondemand import OnDemand
+
+Config.credentials_path = "/Users/ben/Projects"
+Config.preferred_auth_mode = AuthMethods.DUO_PUSH
+
+# Initialize OnDemand Service
+ondemand = OnDemand(retain_cookie=True)
+
+# Give it order information for checkout
+ondemand.first_name = "John"
+ondemand.last_initial = "D"
+ondemand.phone_number = "8885551234"
+ondemand.preferred_payment = OnDemand.PaymentMethod.DINING_DOLLARS
+
+# List the stores that are open
+open_stores = ondemand.list_stores(status_filter=OnDemand.StoreStatus.OPEN)
+print(f"There are {len(open_stores)} open now.")
+print(open_stores)
+
+# Select Beanz
+if ondemand.get_store_status("Beanz") == OnDemand.StoreStatus.OPEN:
+    ondemand.select_store("Beanz")
+
+    # Order my favorite drink!
+    print("Let's order my favorite drink at Beanz!\n")
+    ondemand.select_item("Strawberry Sunrise Smoothie")
+    ondemand.add_options("Smoothie Base", "Apple Juice")
+    ondemand.add_options("Add-ons", "Protein Powder")
+    ondemand.set_quantity(1)
+    ondemand.add_item()
+
+    # Print the subtotal and total
+    subtotal = ondemand.get_subtotal()
+    total = ondemand.get_total()
+
+    print(f"Subtotal: {subtotal}")
+    print(f"Total: {total}")
+
+    # Attempt to place the order
+    try:
+        ondemand.checkout(acknowledge_charge=True)
+        print("Order placed!")
+    except OnDemand.CheckoutError:
+        print("Order didn't work...")
+else:
+    print("Store is closed right now")
+
+# Sign out and terminate the headless browser
+ondemand.end_auth()
+ondemand.terminate()
+```
+
+```
+There are 6 stores open now.
+["Petals (RIT Inn)", "Artesano Bakery & Café", "Cafe at Crossroads", "The Commons", "Beanz", "Midnight Oil"]
+Let's order my favorite drink at Beanz!
+
+Subtotal: $7.10
+Total: $7.67
+Order placed!
+```
+
+> [!NOTE]
+> Project is specific to RIT Students only.
+> Function identifiers and/or overall functionality and code structure may change on launch.
 
 ## quickz
 
@@ -61,7 +167,7 @@ Q7 ANSWER = 3.5 ∠ 22.62°
 
 ## Secret Keylogger
 
-[GitHub Repository](https://github.com/Ben-Does-Arcade/secret-keylogger)
+[GitHub Repository](https://github.com/Ben-Does-Arcade/secret-keylogger) (coming soon)
 
 This project is in collaboration with one of my good friends Noah Wildey.
 
