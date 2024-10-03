@@ -48,6 +48,17 @@ Just approve the Duo Push or enter your text passcode that is sent to your mobil
 Some classes support `retain_cookie`, where it is possible to automatically sign in without the need to do anything else. This is commonly used with `OnDemand` to immediately
 invoke an online order without having to worry about RIT's SSO systen. Most services do *not* support this natively for security reasons.
 
+Supported authentication formats (for now):
+
+```python
+from autorit import Config, AuthMethods
+
+# Choose which one you want to use:
+Config.preferred_auth_mode = AuthMethods.DUO_PUSH
+Config.preferred_auth_mode = AuthMethods.TEXT_PASSCODE
+Config.preferred_auth_mode = AuthMethods.DUO_PASSCODE
+```
+
 ### Connecting RIT Online Services together through automation
 
 This package also empowers the incorporation of automation across multiple different RIT Online Services and your own third-party services, like personal calendars and to-do lists.
