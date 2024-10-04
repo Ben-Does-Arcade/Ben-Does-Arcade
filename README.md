@@ -12,8 +12,15 @@ You'll find many of my personal projects hosted here. Feel free to check them ou
 
 ## My Thought Process
 
+All projects are:
+
 * Treated as if they were in production or an enterprise environment
 * Documented extensively
+
+There's still lots of projects that do not meet this criteria, at least they don't yet.
+For those projects, they will be private until they do meet these criteria.
+
+Nobody wants to look at undocumented garbage that's hard to understand how it all works.
 
 # My Latest Projects
 
