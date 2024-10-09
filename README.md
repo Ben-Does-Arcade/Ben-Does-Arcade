@@ -1,4 +1,4 @@
-(Updated 10/3/2024)
+(Updated 10/9/2024)
 
 **Hi, I'm Ben.**
 
@@ -23,6 +23,13 @@ For those projects, they will be private until they do meet these criteria.
 Nobody wants to look at undocumented garbage that's hard to understand how it all works.
 
 # My Latest Projects
+
+## wheelchair-door-brute-forcer
+
+[GitHub Repository](https://github.com/Ben-Does-Arcade/wheelchair-door-brute-forcer) (coming soon)
+
+Brute forces automatic doors. This was done as a security project. I can't say much about this project right now - but let's just say, it might be one of the craziest cybersecurity fails
+that I've ever seen.
 
 ## autorit
 
