@@ -1,15 +1,17 @@
-(Updated 10/9/2024)
+(Updated 12/25/24)
 
-**Hi, I'm Ben.**
+# 👋 Hi, I'm Ben.
 
 I'm a second-year Rochester Institute of Technology student who is interested in all things technology, particularly with writing code and creating projects.
 
 You'll find many of my personal projects hosted here. Feel free to check them out. I am fairly active on GitHub, so check back again soon for any future project updates.
 
 > [!IMPORTANT]
-> **_I am in the process of migrating older projects to GitHub_** so that all my work can be viewed on the same platform.
-> Many of my projects are private for the time being, while they are being finished. This includes **Maze Finger**.
+> **_I am in the process of migrating older projects to GitHub_**.
+>
+> Many of my older projects do not have the level of detail that I would like in order to release them, so as time goes on, I am migrating as many projects as possible.
 
+<!--
 ## My Thought Process
 
 All projects are:
@@ -20,20 +22,18 @@ All projects are:
 There's still lots of projects that do not meet this criteria, at least they don't yet.
 For those projects, they will be private until they do meet these criteria.
 
-Nobody wants to look at undocumented garbage that's hard to understand how it all works.
+Nobody wants to look at undocumented garbage that's hard to understand how it all works.-->
 
 # My Latest Projects
-
-## wheelchair-door-brute-forcer
-
-[GitHub Repository](https://github.com/Ben-Does-Arcade/wheelchair-door-brute-forcer) (coming soon)
-
-Brute forces automatic doors. This was done as a security project. I can't say much about this project right now - but let's just say, it might be one of the craziest cybersecurity fails
-that I've ever seen.
 
 ## autorit
 
 [GitHub Repository](https://github.com/Ben-Does-Arcade/autorit) (coming soon)
+
+> [!NOTE]
+> **Service modules are in the works NOW!**
+> 
+> Excited to share the first release soon.
 
 Tired of navigating those notoriously awful frontends from RIT's many different online services? It is a known issue that it is difficult to use many of the online services that RIT has for different purposes.
 For example, `ondemand.rit.edu` for online ordering, `reserve.rit.edu` for reserving rooms, `mycourses.rit.edu` for course materials, and a lot more.
@@ -150,6 +150,13 @@ Order placed!
 > [!NOTE]
 > Project is specific to RIT Students only.
 > Function identifiers and/or overall functionality and code structure may change on launch.
+
+## wheelchair-door-brute-forcer
+
+[GitHub Repository](https://github.com/Ben-Does-Arcade/wheelchair-door-brute-forcer) (coming soon)
+
+Brute forces automatic doors. This was done as a security project. I can't say much about this project right now - but let's just say, it might be one of the craziest cybersecurity fails
+that I've ever seen.
 
 ## quickz
 
