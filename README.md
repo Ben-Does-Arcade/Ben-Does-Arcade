@@ -1,4 +1,4 @@
-(Updated 12/25/24)
+(Updated 1/6/2025)
 
 # 👋 Hi, I'm Ben.
 
@@ -25,6 +25,19 @@ For those projects, they will be private until they do meet these criteria.
 Nobody wants to look at undocumented garbage that's hard to understand how it all works.-->
 
 # My Latest Projects
+
+## xss-demo
+
+[GitHub Repository](https://github.com/Ben-Does-Arcade/xss-demo) (**Pre-release out now!**)
+
+A site that provides live demos of how XSS attacks could work in real scenarios. This site also includes testing cookies where you are able to really see the power of stealing session data from users.
+
+Launch one-click tests, make your own attacks, and more with this unique and one-of-a-kind web educational tool.
+
+> [!WARNING]
+> This tool was designed for educational purposes only and is to *never* be used for any malicious purposes.
+> 
+> Be smart, test on your own systems only.
 
 ## autorit
 
@@ -160,7 +173,7 @@ that I've ever seen.
 
 ## quickz
 
-[GitHub Repository](https://github.com/Ben-Does-Arcade/quickz)
+[GitHub Repository](https://github.com/Ben-Does-Arcade/quickz) (**Pre-release out now!**)
 
 `quickz` is a Python library that automatically solves circuits equations for you. You can turn long, tedious circuits into simplified Python code. Then, invoke functions and plug in values into formulas as you need to. It even converts units automatically - no need to worry about manually entering exponential notation to convert to standard units!
 
