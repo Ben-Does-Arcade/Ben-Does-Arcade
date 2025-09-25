@@ -1,15 +1,16 @@
-(Updated 1/6/2025)
+(Updated 9/24/2025)
 
 # 👋 Hi, I'm Ben.
 
-I'm a second-year Rochester Institute of Technology student who is interested in all things technology, particularly with writing code and creating projects.
+I'm a third-year Rochester Institute of Technology student who is interested in all things technology, particularly with writing code and creating projects.
 
 You'll find many of my personal projects hosted here. Feel free to check them out. I am fairly active on GitHub, so check back again soon for any future project updates.
 
-> [!IMPORTANT]
+<!-- [!IMPORTANT]
 > **_I am in the process of migrating older projects to GitHub_**.
 >
 > Many of my older projects do not have the level of detail that I would like in order to release them, so as time goes on, I am migrating as many projects as possible.
+-->
 
 <!--
 ## My Thought Process
@@ -25,6 +26,14 @@ For those projects, they will be private until they do meet these criteria.
 Nobody wants to look at undocumented garbage that's hard to understand how it all works.-->
 
 # My Latest Projects
+
+## autosignals
+
+I was tired of doing the math manually for quizzes and exams so I wrote a library that automates my Signals Systems & Transforms class.
+
+The Python class can be imported into the TI N-Spire calculators for use on exams and such.
+
+Coming soon.
 
 ## xss-demo
 
